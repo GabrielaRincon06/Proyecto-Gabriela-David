@@ -547,3 +547,361 @@ tr:nth-child(even) {
     margin-top: 20px;
     justify-content: space-between;
 }
+
+
+@media (max-width: 1024px) {
+    .primer_encabezado {
+        gap: 24px;
+        padding: 30px 16px;
+    }
+
+    .imagen1 img {
+        width: 280px;
+    }
+
+    .contenedor-cards {
+        gap: 20px;
+    }
+
+    .card {
+        max-width: 260px;
+        padding: 28px;
+    }
+
+    .parent {
+        gap: 12px;
+    }
+
+    .seccion {
+        height: auto;
+        min-height: 80vh;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 12px;
+    }
+
+    .primer_encabezado {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px 16px;
+        gap: 20px;
+    }
+
+    .h1-p1 {
+        order: 1;
+        width: 100%;
+    }
+
+    .imagen1 {
+        order: 2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagen1 img {
+        width: 220px;
+    }
+
+    .contenedor-cards {
+        order: 3;
+        gap: 16px;
+        margin-top: 20px;
+    }
+
+    .card {
+        max-width: 100%;
+        width: 280px;
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .seccion {
+        height: auto;
+        padding: 30px 16px;
+    }
+
+    .titulo-seccion,
+    .titulo2 {
+        font-size: 22px;
+    }
+
+    .opciones {
+        gap: 16px;
+    }
+
+    .card1 {
+        width: 180px;
+        padding: 20px;
+    }
+
+
+    .tercera_parte {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 24px 16px;
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .parent {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .div1, .div2, .div3, .div4 {
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .barra-fondo {
+        width: 100%;
+    }
+
+    .section {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        overflow-x: auto;
+    }
+
+    .titulo-seccion2 {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .Section-tittle {
+        font-size: 22px;
+    }
+
+    table {
+        font-size: 13px;
+        min-width: 0;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px 6px;
+        word-break: break-word;
+    }
+
+
+    .recursos-educativos {
+        width: 100%;
+    }
+
+    .contador-de-pasos {
+        padding: 16px 12px;
+    }
+
+    .botones {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .nav-completo {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 8px;
+    }
+
+
+    .primer_encabezado {
+        padding: 20px 12px;
+        border-radius: 12px;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .imagen1 img {
+        width: 170px;
+    }
+
+    .contenedor-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 340px;
+        padding: 20px;
+    }
+
+    .card img {
+        width: 70px;
+    }
+
+   
+    .opciones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 240px;
+    }
+
+    .titulo-seccion,
+    .titulo2 {
+        font-size: 18px;
+    }
+
+   
+    .tercera_parte {
+        padding: 16px 10px;
+        gap: 16px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .parent {
+        grid-template-columns: 1fr;
+        width: 100%;
+        min-width: 0;
+    }
+
+    .div1, .div2, .div3, .div4 {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .barra-fondo {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .titulo-seccion2 {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .Section-tittle {
+        font-size: 18px;
+    }
+
+    .section {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        min-width: 0;
+    }
+
+    table {
+        font-size: 12px;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    th, td {
+        padding: 6px 4px;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+
+    td:nth-child(2),
+    th:nth-child(2) {
+        display: none;
+    }
+
+
+    .recursos-educativos {
+        width: 100%;
+    }
+
+    .recurso-card {
+        padding: 14px;
+        gap: 10px;
+    }
+
+    .icono {
+        font-size: 22px;
+    }
+
+    .contenido-recurso h3 {
+        font-size: 15px;
+    }
+
+    /* Formulario */
+    .formulario {
+        gap: 8px;
+    }
+
+    .input {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .boton {
+        padding: 11px 20px;
+        font-size: 15px;
+    }
+
+   
+    .botones {
+        gap: 8px;
+    }
+
+    .nav-completo {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+
+    .contador-de-pasos h3 {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+ 
+    .footer {
+        padding: 14px;
+        border-radius: 8px;
+    }
+
+    .redes {
+        gap: 10px;
+    }
+
+    .red-social {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+}
