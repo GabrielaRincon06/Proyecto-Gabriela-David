@@ -905,17 +905,19 @@ tr:nth-child(even) {
         font-size: 13px;
         padding: 5px 10px;
     }
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        width: 100%; 
+        overflow: hidden; 
+    }
+    .parent{
+        width: 100%;
+    }
+
+    .contenedor2{
+        margin: 0 auto;
+    }
 }
-.contenedor2{
-    display: flex;
-    justify-content: center;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.titulo-seccion4{
-    color: white;
-}
-.primer-titulo{
-    color: rgba(0, 0, 0, 0.525);
-}
+
 
